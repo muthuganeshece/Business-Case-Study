@@ -50,3 +50,24 @@ Convert your jupyter notebook into PDF (Save as PDF using Chrome browser’s Pri
 Alternatively, you can directly submit your PDF on the portal.
 Optionally, you may add images/graphs in the text editor by taking screenshots or saving matplotlib graphs using plt.savefig(...).
 After submitting, you will not be allowed to edit your submission.
+
+
+Data analysis:
+- Datatype: 
+	- Convert date_added to datetime
+	- Except year all are categorical data
+- Unique: 
+	- There should be some typo in the country as there are only 190 countries are recognised
+- Missing values:
+- 
+
+Data Cleaning:
+- Fill missing values
+- 
+
+EDA:
+- No of movies by month (2 plots one for movies and one for shows)
+- Avg no. of days between releases
+- No. of days between release year and date added
+- Find unique value of movie category and each category vs year
+	- Find movie share between categories
