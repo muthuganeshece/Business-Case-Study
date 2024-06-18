@@ -71,3 +71,8 @@ EDA:
 - No. of days between release year and date added
 - Find unique value of movie category and each category vs year
 	- Find movie share between categories
+	
+
+Recommendations:
+1. Contains movies predominantly of higher age groups, including a lot of animation movies of kids intrest will attract more customers of that age
+2. Totally movies from 123 countries are included, including movies from remaining countries (~70) increases the customer base from those countries
