@@ -68,3 +68,14 @@ Comments on the range of attributes
 Comments on the distribution of the variables and relationship between them
 Comments for each univariate and bivariate plot
 Recommendations (10 Points) - Actionable items for business. No technical jargon. No complications. Simple action items that everyone can understand
+
+Insights:
+
+Recommendation:
+1. Female users has less interest in purchasing KP781 product irrespective of income or other parameters
+, giving them additional discount on Women's day will increase the chance of purchasing it
+2. Partnered users show higher interest in buying the treadmill, focusly showing ad to newly wed or partnered users will boost the sales
+3. Partnered users in higher income group buying KP781 are having narrower range in age, it implies that the newly partnered users are highly likely to make purchase
+Targeting those customers with discounts or promotion
+4. KP781 can be recommended to the Users with higher usage per week will more likely to make a purchase
+5. ???Both Single Male & Female, with lowest fitness prefers KP481 and Partnered Male & Female, with lowest fitness prefers KP281
