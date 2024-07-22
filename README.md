@@ -7,25 +7,25 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
   - SQL
 - ### Netfix Data Analytics
 To enhance Netflix's revenue, a key strategy is to increase user subscriptions. This can be achieved by analyzing the existing Netflix dataset to identify patterns, preferences, and gaps in the current content offerings. By understanding what drives user engagement and satisfaction, we can make data-driven decisions to attract and retain more subscribers.
-- #### Tools and Libraries
-  - Python, Numpy, Pandas, Matplotlib, Seaborn
-- #### Business Insights and Recommendations
-  - ***Expand Classic Movie Selection:***
-    - `Most movies on Netflix are released after 2010. Including more classic films will attract users from older age groups.`
-  - ***Increase Animation Content:***
-    - `The platform currently features movies predominantly for adult age groups. Adding more animated movies for kids will attract teenage users.`
-  - ***Broaden Geographic Diversity:***
-    - `Netflix hosts movies and TV shows from 123 countries. Adding content from the remaining ~70 countries will expand the customer base in those regions.`
-  - ***Increase Netflix Originals:***
-    - `Only a few movies (2) have been released directly on Netflix before hitting theaters. Increasing this number could boost user engagement.`
-  - ***Enhance January and February Lineup:***
-    - `Fewer movies and TV shows are added in January and February. Increasing content additions during these months will provide more options for users during this period.`
-  - ***Include Influential South Indian Actors:***
-    - `In South India, there is a high interest in movies and TV shows, yet none of the influential South Indian actors are listed among Netflix's top 10 actors. Including movies featuring these actors will increase the customer base in those regions.`
-  - ***Increase Indian TV Shows:***
-    - `Despite India being the second-largest contributor of movies, it ranks seventh in terms of TV shows. Increasing the number of Indian TV shows will expand the customer base.`
-  - ***Add More Long-Running TV Shows:***
-    - `Currently, only 17 TV shows on Netflix have more than 10 seasons. Increasing the number of shows with longer seasons can help extend user subscriptions.`
-  - ***Diversify Genres:***
-    - `The genres of movies and TV shows are not uniformly distributed. Horror and sci-fi fantasy movies are comparatively fewer. Increasing content in these genres will attract a broader audience to the platform.`
+  - #### Tools and Libraries
+    - Python, Numpy, Pandas, Matplotlib, Seaborn
+  - #### Business Insights and Recommendations
+    - ***Expand Classic Movie Selection:***
+      - `Most movies on Netflix are released after 2010. Including more classic films will attract users from older age groups.`
+    - ***Increase Animation Content:***
+      - `The platform currently features movies predominantly for adult age groups. Adding more animated movies for kids will attract teenage users.`
+    - ***Broaden Geographic Diversity:***
+      - `Netflix hosts movies and TV shows from 123 countries. Adding content from the remaining ~70 countries will expand the customer base in those regions.`
+    - ***Increase Netflix Originals:***
+      - `Only a few movies (2) have been released directly on Netflix before hitting theaters. Increasing this number could boost user engagement.`
+    - ***Enhance January and February Lineup:***
+      - `Fewer movies and TV shows are added in January and February. Increasing content additions during these months will provide more options for users during this period.`
+    - ***Include Influential South Indian Actors:***
+      - `In South India, there is a high interest in movies and TV shows, yet none of the influential South Indian actors are listed among Netflix's top 10 actors. Including movies featuring these actors will increase the customer base in those regions.`
+    - ***Increase Indian TV Shows:***
+      - `Despite India being the second-largest contributor of movies, it ranks seventh in terms of TV shows. Increasing the number of Indian TV shows will expand the customer base.`
+    - ***Add More Long-Running TV Shows:***
+      - `Currently, only 17 TV shows on Netflix have more than 10 seasons. Increasing the number of shows with longer seasons can help extend user subscriptions.`
+    - ***Diversify Genres:***
+      - `The genres of movies and TV shows are not uniformly distributed. Horror and sci-fi fantasy movies are comparatively fewer. Increasing content in these genres will attract a broader audience to the platform.`
 - ### Aerofit Descriptive Analytics
