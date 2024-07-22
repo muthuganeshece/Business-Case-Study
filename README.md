@@ -29,3 +29,15 @@ To enhance Netflix's revenue, a key strategy is to increase user subscriptions. 
     - ***Diversify Genres:***
       - `The genres of movies and TV shows are not uniformly distributed. Horror and sci-fi fantasy movies are comparatively fewer. Increasing content in these genres will attract a broader audience to the platform.`
 - ### Aerofit Descriptive Analytics
+Aerofit, a leading brand in the fitness equipment industry, offers a diverse product range including treadmills, exercise bikes, gym equipment, and fitness accessories. To enhance revenue, we aim to provide actionable recommendations based on detailed insights gathered from the sales data. The dataset consists of three months of sales data.
+  - #### Tools and Libraries
+    - Python, Numpy, Pandas, Matplotlib, Seaborn
+  - #### Business Insights and Recommendations
+    - ***Female Users:***
+      - `Female users have shown less interest in purchasing the KP781 product, regardless of income or other parameters. Offering them an additional discount on Women's Day could increase the likelihood of purchase`
+    - ***Partnered Users:***
+      - `Partnered users demonstrate a higher interest in buying the treadmill. Focusing advertisements on newlyweds or partnered users can help boost sales.`
+    - ***Higher Income Partnered Users:***
+      - `Partnered users in the higher income group purchasing the KP781 fall within a narrower age range, implying that newly partnered users are highly likely to make a purchase. Targeting these customers with discounts or promotions could be effective.`
+    - ***High Usage Users:***
+      - `The KP781 can be recommended to users with higher usage per week, as they are more likely to make a purchase.`
