@@ -41,3 +41,7 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
       - `Partnered users in the higher income group purchasing the KP781 fall within a narrower age range, implying that newly partnered users are highly likely to make a purchase. Targeting these customers with discounts or promotions could be effective.`
     - ***High Usage Users:***
       - `The KP781 can be recommended to users with higher usage per week, as they are more likely to make a purchase.`
+
+- ### Walmart Data Analytics
+    - #### Tools and Libraries
+      - Python, Numpy, Pandas, Scipy, Stats.models, Matplotlib, Seaborn
