@@ -2,6 +2,10 @@
 Hi👋🏾, Welcome to the Business Case Study Repository! This repository contains a collection of business case studies of various industries dataset.
 
 ## Contents
+- [**Target Retail Analytics using SQL**](Practise/NLP1.ipynb)
+- [**Netfix Data Exploration and Visualization**](Practise/NLP2.ipynb)
+- [**Aerofit Descriptive Analytics**](Practise/NLP3.ipynb)
+- [**Walmart Data Analytics: CLT and Confidence Interval**](Practise/NLP4.ipynb)
 
 ## Target Retail Analytics
 - #### Tools and Libraries
@@ -45,7 +49,7 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
     - ***High Usage Users:***
       - `The KP781 can be recommended to users with higher usage per week, as they are more likely to make a purchase.`
 
-## Walmart Data Analytics
+## Walmart Data Analytics: CLT and Confidence Interval
   - #### Tools and Libraries
     - Python, Numpy, Pandas, Scipy, Stats.models, Matplotlib, Seaborn
   - #### Business Insights and Recommendations
