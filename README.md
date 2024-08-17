@@ -63,3 +63,7 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
         - From the Central Limit Theorem analysis, not all age groups exhibit significant differences in purchasing behavior. However, certain age groups do show significant differences. Therefore, targeted promotions based on age groups are likely to have a noticeable impact on revenue.
     - ***City-Specific Promotions:***
         - To increase sales, plan promotional campaigns specifically targeting cities A and C, where there is significant potential for growth.
+
+## Yulu Data Analytics: Hypothesis Testing
+- #### Tools and Libraries 
+- Python, Scipy, Statsmodels
