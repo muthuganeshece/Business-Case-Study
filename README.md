@@ -6,6 +6,7 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
 - [**Netfix Data Exploration and Visualization**](Netflix/Notebook/EDA.ipynb)
 - [**Aerofit Descriptive Analytics**](Aerofit/Notebook/EDA.ipynb)
 - [**Walmart Data Analytics: CLT and Confidence Interval**](Walmart/Notebook/Walmart_CLT.ipynb)
+- [**Yulu Data Analytics: Hypothesis Testing**]
 
 ## Target Retail Analytics
 - #### Tools and Libraries
