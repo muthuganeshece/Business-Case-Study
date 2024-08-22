@@ -6,7 +6,7 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
 - [**Netfix Data Exploration and Visualization**](Netflix/Notebook/EDA.ipynb)
 - [**Aerofit Descriptive Analytics**](Aerofit/Notebook/EDA.ipynb)
 - [**Walmart Data Analytics: CLT and Confidence Interval**](Walmart/Notebook/Walmart_CLT.ipynb)
-- [**Yulu Data Analytics: Hypothesis Testing**]
+- [**Yulu Data Analytics: Hypothesis Testing**](Yulu/Notebook/Yulu_HypothesisTesting.ipynb)
 
 ## Target Retail Analytics
 - #### Tools and Libraries
@@ -68,5 +68,6 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
 - #### Tools and Libraries 
   - Python, Scipy, Statsmodels, combinations
 - #### Business Insights and Recommendations
+  - Average number of cycles rented is similar between working and non working days
   - Average number of cycles rented is significantly different between each seasons
   - Average number of cycles rented is significantly different between each weather conditions
