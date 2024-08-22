@@ -66,4 +66,7 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
 
 ## Yulu Data Analytics: Hypothesis Testing
 - #### Tools and Libraries 
-- Python, Scipy, Statsmodels
+  - Python, Scipy, Statsmodels, combinations
+- #### Business Insights and Recommendations
+  - Average number of cycles rented is significantly different between each seasons
+  - Average number of cycles rented is significantly different between each weather conditions
