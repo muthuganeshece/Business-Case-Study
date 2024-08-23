@@ -68,6 +68,8 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
 - #### Tools and Libraries 
   - Python, Scipy, Statsmodels, combinations
 - #### Business Insights and Recommendations
-  - Average number of cycles rented is similar between working and non working days
-  - Average number of cycles rented is significantly different between each seasons
-  - Average number of cycles rented is significantly different between each weather conditions
+  - ***Trends:*** 
+    - Average number of cycles rented is similar between working and non working days
+    - Average number of cycles rented is significantly different between each seasons
+    - Average number of cycles rented is significantly different between each weather conditions
+    - Chisquare test confirmed that Weather condition and season are related
