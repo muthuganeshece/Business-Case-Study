@@ -72,4 +72,33 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
     - Average number of cycles rented is similar between working and non working days
     - Average number of cycles rented is significantly different between each seasons
     - Average number of cycles rented is significantly different between each weather conditions
-    - Chisquare test confirmed that Weather condition and season are related
+    - Chisquare test confirmed that Weather condition and season are related   
+  - **Weather-Based Insights:**
+    - Obseravation: 
+    	- Light weather conditions (Weather 1 and 2) see high usage of the cycles.
+    - Recommendation: 
+    	- Focus marketing efforts and offer discounts or reduced costs during Weather 1 and 2 conditions to capitalize on high demand
+    	- Hypothesis test also concludes that Average number of cycles rented is significantly different for weather 1 and 2. Hence the strategies involving weather 1 and 2 will make a significant impact whereas the weather 2 doesn't.
+    	- Utilize dynamic pricing models that adjust costs based on real-time weather conditions, prioritizing Weather 1 for promotions to maximize revenue.  
+  - **Weekly usage-Based Insights:**
+    - Obseravation: 
+    	- Registered users are predominant on weekdays indicates tbat they rent cycles for commuting to work/students
+    	- Casual users are predominant on weekends indicating that they commute for leisure
+    	- Users count during holiday and working day also confirms the above point
+    - Recommendation:
+    	- Increase efforts to grow the registered user base to boost weekday revenue, as they tend to have higher usage rates
+    	- Introduce weekday subscription plans or loyalty programs for registered users to encourage frequent use
+    	- On weekends, tailor promotions and offers to attract casual users with leisure-oriented marketing
+    	- Design weekend packages that appeal to casual users, such as group discounts or event partnerships  
+  - **YoY Growth Insights:**
+    - Obseravation: 
+    	- Year-over-year (YoY) user growth indicates that current promotion strategies are effective.
+    - Recommendation:
+    	- Continue and refine existing promotional strategies that have proven successful.
+    	- Analyze which promotional channels and messages have driven the most growth and amplify those efforts.  
+  - **Time-Based Insights:**
+    - Obseravation:
+    	- The average number of casual users peaks between 13:00 and 17:00, indicating high demand during these hours.
+    - Recommendation: 
+    	- Implement dynamic pricing during peak hours to manage demand and maximize revenue. Adjust pricing to reflect the higher value of cycles during peak usage times
+    	- Set up a pricing model that increases rates during peak hours (13:00-17:00) while offering discounts during off-peak times to balance demand throughout the day
