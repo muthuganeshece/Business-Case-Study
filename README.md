@@ -55,50 +55,50 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
     - Python, Numpy, Pandas, Scipy, Stats.models, Matplotlib, Seaborn
   - #### Business Insights and Recommendations
     - ***Purchasing Trends:***
-        - On Black Friday, the mean purchase amount for men is significantly higher than for women. Offering higher discounts to women could potentially increase revenue. Therefore, targeted promotions based on the gender is likely to have a noticeable impact on revenue.The Hypothesis test also proved the same.
+        - `On Black Friday, the mean purchase amount for men is significantly higher than for women. Offering higher discounts to women could potentially increase revenue. Therefore, targeted promotions based on the gender is likely to have a noticeable impact on revenue.The Hypothesis test also proved the same.`
     - ***Marital Status Insights:***
-        - Unmarried customers contribute the majority of sales. However, the revenue contribution between unmarried and married customers is not significantly different, making it challenging to distinguish between their mean values with confidence intervals of 90%, 95%, and 99%.
+        - `Unmarried customers contribute the majority of sales. However, the revenue contribution between unmarried and married customers is not significantly different, making it challenging to distinguish between their mean values with confidence intervals of 90%, 95%, and 99%.`
     - ***Age Group Insights:***
-        - The 18-45 age group contributes to approximately 75% of sales. Expanding the product variety and increasing discounts on items suitable for other age groups could attract a broader customer base and boost sales.
-        - From the Central Limit Theorem analysis, not all age groups exhibit significant differences in purchasing behavior. However, certain age groups do show significant differences. Therefore, targeted promotions based on age groups are likely to have a noticeable impact on revenue.
+        - `The 18-45 age group contributes to approximately 75% of sales. Expanding the product variety and increasing discounts on items suitable for other age groups could attract a broader customer base and boost sales.`
+        - `From the Central Limit Theorem analysis, not all age groups exhibit significant differences in purchasing behavior. However, certain age groups do show significant differences. Therefore, targeted promotions based on age groups are likely to have a noticeable impact on revenue.`
     - ***City-Specific Promotions:***
-        - To increase sales, plan promotional campaigns specifically targeting cities A and C, where there is significant potential for growth.
+        - `To increase sales, plan promotional campaigns specifically targeting cities A and C, where there is significant potential for growth.`
 
 ## Yulu Data Analytics: Hypothesis Testing
 - #### Tools and Libraries 
   - Python, Scipy, Statsmodels, combinations
 - #### Business Insights and Recommendations
   - ***Trends:*** 
-    - Average number of cycles rented is similar between working and non working days
-    - Average number of cycles rented is significantly different between each seasons
-    - Average number of cycles rented is significantly different between each weather conditions
-    - Chisquare test confirmed that Weather condition and season are related   
-  - **Weather-Based Insights:**
+    - `Average number of cycles rented is similar between working and non working days`
+    - `Average number of cycles rented is significantly different between each seasons`
+    - `Average number of cycles rented is significantly different between each weather conditions`
+    - `Chisquare test confirmed that Weather condition and season are related`
+  - ***Weather-Based Insights:***
     - Obseravation: 
-    	- Light weather conditions (Weather 1 and 2) see high usage of the cycles.
+    	- `Light weather conditions (Weather 1 and 2) see high usage of the cycles.`
     - Recommendation: 
-    	- Focus marketing efforts and offer discounts or reduced costs during Weather 1 and 2 conditions to capitalize on high demand
-    	- Hypothesis test also concludes that Average number of cycles rented is significantly different for weather 1 and 2. Hence the strategies involving weather 1 and 2 will make a significant impact whereas the weather 2 doesn't.
-    	- Utilize dynamic pricing models that adjust costs based on real-time weather conditions, prioritizing Weather 1 for promotions to maximize revenue.  
-  - **Weekly usage-Based Insights:**
+    	- `Focus marketing efforts and offer discounts or reduced costs during Weather 1 and 2 conditions to capitalize on high demand`
+    	- `Hypothesis test also concludes that Average number of cycles rented is significantly different for weather 1 and 2. Hence the strategies involving weather 1 and 2 will make a significant impact whereas the weather 2 doesn't.`
+    	- `Utilize dynamic pricing models that adjust costs based on real-time weather conditions, prioritizing Weather 1 for promotions to maximize revenue.` 
+  - ***Weekly usage-Based Insights:***
     - Obseravation: 
-    	- Registered users are predominant on weekdays indicates tbat they rent cycles for commuting to work/students
-    	- Casual users are predominant on weekends indicating that they commute for leisure
-    	- Users count during holiday and working day also confirms the above point
+    	- `Registered users are predominant on weekdays indicates tbat they rent cycles for commuting to work/students`
+    	- `Casual users are predominant on weekends indicating that they commute for leisure`
+    	- `Users count during holiday and working day also confirms the above point`
     - Recommendation:
-    	- Increase efforts to grow the registered user base to boost weekday revenue, as they tend to have higher usage rates
-    	- Introduce weekday subscription plans or loyalty programs for registered users to encourage frequent use
-    	- On weekends, tailor promotions and offers to attract casual users with leisure-oriented marketing
-    	- Design weekend packages that appeal to casual users, such as group discounts or event partnerships  
-  - **YoY Growth Insights:**
+    	- `Increase efforts to grow the registered user base to boost weekday revenue, as they tend to have higher usage rates`
+    	- `Introduce weekday subscription plans or loyalty programs for registered users to encourage frequent use`
+    	- `On weekends, tailor promotions and offers to attract casual users with leisure-oriented marketing`
+      - `Design weekend packages that appeal to casual users, such as group discounts or event partnerships`
+  - ***YoY Growth Insights:***
     - Obseravation: 
-    	- Year-over-year (YoY) user growth indicates that current promotion strategies are effective.
+    	- `Year-over-year (YoY) user growth indicates that current promotion strategies are effective.`
     - Recommendation:
-    	- Continue and refine existing promotional strategies that have proven successful.
-    	- Analyze which promotional channels and messages have driven the most growth and amplify those efforts.  
-  - **Time-Based Insights:**
+    	- `Continue and refine existing promotional strategies that have proven successful.`
+    	- `Analyze which promotional channels and messages have driven the most growth and amplify those efforts.`  
+  - ***Time-Based Insights:***
     - Obseravation:
-    	- The average number of casual users peaks between 13:00 and 17:00, indicating high demand during these hours.
+    	- `The average number of casual users peaks between 13:00 and 17:00, indicating high demand during these hours.`
     - Recommendation: 
-    	- Implement dynamic pricing during peak hours to manage demand and maximize revenue. Adjust pricing to reflect the higher value of cycles during peak usage times
-    	- Set up a pricing model that increases rates during peak hours (13:00-17:00) while offering discounts during off-peak times to balance demand throughout the day
+    	- `Implement dynamic pricing during peak hours to manage demand and maximize revenue. Adjust pricing to reflect the higher value of cycles during peak usage times`
+    	- `Set up a pricing model that increases rates during peak hours (13:00-17:00) while offering discounts during off-peak times to balance demand throughout the day`
