@@ -1,4 +1,4 @@
-# Business Case study
+![image](https://github.com/user-attachments/assets/7490060f-d942-4d79-aa8b-1a21b9d594d0)# Business Case study
 Hi👋🏾, Welcome to the Business Case Study Repository! This repository contains a collection of business case studies of various industries dataset.
 
 ## Contents
@@ -102,3 +102,33 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
     - Recommendation: 
     	- `Implement dynamic pricing during peak hours to manage demand and maximize revenue. Adjust pricing to reflect the higher value of cycles during peak usage times`
     	- `Set up a pricing model that increases rates during peak hours (13:00-17:00) while offering discounts during off-peak times to balance demand throughout the day`
+  - ***Temperature-Based Insights:***
+    - Observation: 
+    	- `Cycle usage is positively correlated with temperature`
+    - Recommendation:
+    	- `Hypothesis testing confirms that the average number of cycles rented varies significantly with temperature. Hence the strategies involving temperature bin will make a significant impact`
+    	- `Incorporate temperature data into dynamic pricing models. Increase prices during favorable temperature conditions (higher usage) and consider lowering prices or offering incentives when conditions are less ideal.`
+    	- `Utilize accurate weather prediction APIs to anticipate demand and adjust pricing accordingly.`
+
+  - ***Humidity-Based Insights:***
+    - Observation:
+    	- `Cycle usage is negatively correlated with humidity` 
+    - Recommendation:
+    	- `Hypothesis testing confirms that the average number of cycles rented varies significantly with humidity. Hence the strategies involving humidity will make a significant impact`
+    	- `Incorporate humidity data into dynamic pricing models. IAdjust pricing based on humidity levels to encourage usage during less favorable conditions.`
+    	- `Utilize accurate weather prediction APIs to anticipate demand and adjust pricing accordingly.`
+
+  - ***Day-Based Insights:***
+    - Observation:
+    	- `The average number of cycles rented is not significantly different between working days and non-working days`
+    - Recommendation:
+    	- `The strategies involving working day doesn't significantly impact`
+    	- `Maintain consistent pricing across working and non-working days`
+
+  - ***Season-Based Insights:***
+    - Observation:
+    	- `The average number of cycles rented varies significantly between seasons`
+    - Recommendation:
+    	- `The strategies involving each seasons will make significantly impact`
+    	- `Increase prices during peak seasons with high demand and offer discounts or promotions during off-peak seasons to encourage usage`
+    	- `Create seasonal marketing campaigns that highlight the benefits of cycling in each season`
