@@ -83,3 +83,67 @@ Select the appropriate test (1)
 Check test assumptions (2)
 Find the p-value(1)
 Conclusion based on the p-value (2)
+
+1. Weather-Based Insights:
+- Obseravation: 
+	- Light weather conditions (Weather 1 and 2) see high usage of the cycles.
+- Recommendation: 
+	- Focus marketing efforts and offer discounts or reduced costs during Weather 1 and 2 conditions to capitalize on high demand
+	- Hypothesis test also concludes that Average number of cycles rented is significantly different for weather 1 and 2. Hence the strategies involving weather 1 and 2 will make a significant impact whereas the weather 2 doesn't.
+	- Utilize dynamic pricing models that adjust costs based on real-time weather conditions, prioritizing Weather 1 for promotions to maximize revenue.
+
+2. Weekly usage-Based Insights:
+- Obseravation: 
+	- Registered users are predominant on weekdays indicates tbat they rent cycles for commuting to work/students
+	- Casual users are predominant on weekends indicating that they commute for leisure
+	- Users count during holiday and working day also confirms the above point
+- Recommendation:
+	- Increase efforts to grow the registered user base to boost weekday revenue, as they tend to have higher usage rates
+	- Introduce weekday subscription plans or loyalty programs for registered users to encourage frequent use
+	- On weekends, tailor promotions and offers to attract casual users with leisure-oriented marketing
+	- Design weekend packages that appeal to casual users, such as group discounts or event partnerships
+
+3. YoY Growth Insights:
+- Obseravation: 
+	- Year-over-year (YoY) user growth indicates that current promotion strategies are effective.
+- Recommendation:
+	- Continue and refine existing promotional strategies that have proven successful.
+	- Analyze which promotional channels and messages have driven the most growth and amplify those efforts.
+
+4. Time-Based Insights:
+- Obseravation:
+	- The average number of casual users peaks between 13:00 and 17:00, indicating high demand during these hours.
+- Recommendation: 
+	- Implement dynamic pricing during peak hours to manage demand and maximize revenue. Adjust pricing to reflect the higher value of cycles during peak usage times
+	- Set up a pricing model that increases rates during peak hours (13:00-17:00) while offering discounts during off-peak times to balance demand throughout the day
+
+5. Temperature-Based Insights:
+- Observation: 
+	- Cycle usage is positively correlated with temperature 
+- Recommendation:
+	- Hypothesis testing confirms that the average number of cycles rented varies significantly with temperature. Hence the strategies involving temperature bin will make a significant impact
+	- Incorporate temperature data into dynamic pricing models. Increase prices during favorable temperature conditions (higher usage) and consider lowering prices or offering incentives when conditions are less ideal.
+	- Utilize accurate weather prediction APIs to anticipate demand and adjust pricing accordingly.
+
+6. Humidity-Based Insights:
+- Observation:
+	- Cycle usage is negatively correlated with humidity 
+- Recommendation:
+	- Hypothesis testing confirms that the average number of cycles rented varies significantly with humidity. Hence the strategies involving humidity will make a significant impact
+	- Incorporate humidity data into dynamic pricing models. IAdjust pricing based on humidity levels to encourage usage during less favorable conditions.
+	- Utilize accurate weather prediction APIs to anticipate demand and adjust pricing accordingly.
+
+7. Day-Based Insights:
+- Observation:
+	- The average number of cycles rented is not significantly different between working days and non-working days
+- Recommendation:
+	- The strategies involving working day doesn't significantly impact
+	- Maintain consistent pricing across working and non-working days
+
+8. Season-Based Insights:
+- Observation:
+	- The average number of cycles rented varies significantly between seasons
+- Recommendation:
+	- The strategies involving each seasons will make significantly impact
+	- Increase prices during peak seasons with high demand and offer discounts or promotions during off-peak seasons to encourage usage
+	- Create seasonal marketing campaigns that highlight the benefits of cycling in each season
