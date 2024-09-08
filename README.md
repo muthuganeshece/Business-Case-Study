@@ -7,7 +7,7 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
 - [**Aerofit Descriptive Analytics**](Aerofit/Notebook/EDA.ipynb)
 - [**Walmart Data Analytics: CLT and Confidence Interval**](Walmart/Notebook/Walmart_CLT.ipynb)
 - [**Yulu Data Analytics: Hypothesis Testing**](Yulu/Notebook/Yulu_HypothesisTesting.ipynb)
-
+- [**Delhivery Feature Engineering: Feature Cleaning & Transformation**](Delhivery/Notebook/Delhivery_FE.ipynb)
 ## Target Retail Analytics
 - #### Tools and Libraries
   - SQL
