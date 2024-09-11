@@ -1,7 +1,7 @@
 About Delhivery
 
-Delhivery is the largest and fastest-growing fully integrated player in India by revenue in Fiscal 2021. They aim to build the operating system for commerce, through a combination of world-class infrastructure, logistics operations of the highest quality, and cutting-edge engineering and technology capabilities.
-
+Delhivery is the largest and fastest-growing fully integrated player in India by revenue in Fiscal 2021. They aim to build the operating system for commerce, through a combination of world-class infrastructure, 
+logistics operations of the highest quality, and cutting-edge engineering and technology capabilities.
 The Data team builds intelligence and capabilities using this data that helps them to widen the gap between the quality, efficiency, and profitability of their business versus their competitors.
 
 How can you help here?
@@ -59,9 +59,11 @@ Handling categorical values
 Missing values - Outlier treatment / Types of outliers
 How to begin:
 
-Since delivery details of one package are divided into several rows (think of it as connecting flights to reach a particular destination). Now think about how we should treat their fields if we combine these rows? What aggregation would make sense if we merge. What would happen to the numeric fields if we merge the rows?
+Since delivery details of one package are divided into several rows (think of it as connecting flights to reach a particular destination). 
+Now think about how we should treat their fields if we combine these rows? What aggregation would make sense if we merge. What would happen to the numeric fields if we merge the rows?
 
-Hint: You can use inbuilt functions like groupby and aggregations like sum(), cumsum() to merge some rows based on their 1. Trip_uuid, Source ID and Destination ID 2. Further aggregate on the basis of just Trip_uuid. You can also keep the first and last values for some numeric/categorical fields if aggregating them won’t make sense.
+Hint: You can use inbuilt functions like groupby and aggregations like sum(), cumsum() to merge some rows based on their 
+1. Trip_uuid, Source ID and Destination ID 2. Further aggregate on the basis of just Trip_uuid. You can also keep the first and last values for some numeric/categorical fields if aggregating them won’t make sense.
 
 Basic data cleaning and exploration:
 Handle missing values in the data.
@@ -103,3 +105,29 @@ Business Insights (10 Points) - Should include patterns observed in the data alo
 Check from where most orders are coming from (State, Corridor etc)
 Busiest corridor, avg distance between them, avg time taken
 Recommendations (10 Points) - Actionable items for business. No technical jargon. No complications. Simple action items that everyone can understand.
+
+Columns:
+'data': Completed
+'trip_creation_time': Completed
+'route_schedule_uuid': Completed
+'route_type': In Progress
+'trip_uuid',
+'source_center',
+'source_name', 
+'destination_center',
+'destination_name', 
+'od_start_time', 
+'od_end_time',
+'start_scan_to_end_scan', 
+'is_cutoff', 
+'cutoff_factor',
+'cutoff_timestamp', 
+'actual_distance_to_destination', 
+'actual_time',
+'osrm_time', 
+'osrm_distance', 
+'factor', 
+'segment_actual_time',
+'segment_osrm_time', 
+'segment_osrm_distance', 
+'segment_factor'
