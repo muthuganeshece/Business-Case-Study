@@ -110,19 +110,19 @@ Columns:
 'data': Completed
 'trip_creation_time': Completed
 'route_schedule_uuid': Completed
-'route_type': In Progress
-'trip_uuid',
-'source_center',
-'source_name', 
-'destination_center',
-'destination_name', 
-'od_start_time', 
-'od_end_time',
-'start_scan_to_end_scan', 
-'is_cutoff', 
-'cutoff_factor',
-'cutoff_timestamp', 
-'actual_distance_to_destination', 
+'route_type': Completed
+'trip_uuid',: Completed
+'source_center',: Completed
+'source_name', : Completed
+'destination_center',: Completed
+'destination_name', : Completed
+'od_start_time', : Completed
+'od_end_time',: Completed
+'start_scan_to_end_scan', : Completed
+'is_cutoff', : Completed
+'cutoff_factor',: Completed
+'cutoff_timestamp', : Completed
+'actual_distance_to_destination', : Completed
 'actual_time',
 'osrm_time', 
 'osrm_distance', 
