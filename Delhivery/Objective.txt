@@ -123,11 +123,11 @@ Columns:
 'cutoff_factor',: Completed
 'cutoff_timestamp', : Completed
 'actual_distance_to_destination', : Completed
-'actual_time',
-'osrm_time', 
-'osrm_distance', 
+'actual_time',: Completed
+'osrm_time', : Completed
+'osrm_distance', : Completed
 'factor', 
-'segment_actual_time',
-'segment_osrm_time', 
-'segment_osrm_distance', 
+'segment_actual_time',: Completed
+'segment_osrm_time', : Completed
+'segment_osrm_distance', : Completed
 'segment_factor'
