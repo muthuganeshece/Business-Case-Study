@@ -8,6 +8,7 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
 - [**Walmart Data Analytics: CLT and Confidence Interval**](Walmart/Notebook/Walmart_CLT.ipynb)
 - [**Yulu Data Analytics: Hypothesis Testing**](Yulu/Notebook/Yulu_HypothesisTesting.ipynb)
 - [**Delhivery Feature Engineering: Feature Cleaning & Transformation**](Delhivery/Notebook/Delhivery_FE.ipynb)
+
 ## Target Retail Analytics
 - #### Tools and Libraries
   - SQL
@@ -132,3 +133,8 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
     	- `The strategies involving each seasons will make significantly impact`
     	- `Increase prices during peak seasons with high demand and offer discounts or promotions during off-peak seasons to encourage usage`
     	- `Create seasonal marketing campaigns that highlight the benefits of cycling in each season`
+
+## Delhivery Data Analytics: Feature Engineering 
+- #### Tools and Libraries 
+  - Python, Scipy
+- #### Business Insights and Recommendations
