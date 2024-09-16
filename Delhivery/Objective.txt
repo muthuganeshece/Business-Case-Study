@@ -126,8 +126,8 @@ Columns:
 'actual_time',: Completed
 'osrm_time', : Completed
 'osrm_distance', : Completed
-'factor', 
+'factor', : Completed
 'segment_actual_time',: Completed
 'segment_osrm_time', : Completed
 'segment_osrm_distance', : Completed
-'segment_factor'
+'segment_factor': Completed
