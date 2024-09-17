@@ -136,5 +136,6 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
 
 ## Delhivery Data Analytics: Feature Engineering 
 - #### Tools and Libraries 
-  - Python, Scipy
+  - Python, Numpy, Pandas, Matplotlib
+- #### Feature Transformations
 - #### Business Insights and Recommendations
