@@ -7,7 +7,7 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
 - [**Aerofit Descriptive Analytics**](Aerofit/Notebook/EDA.ipynb)
 - [**Walmart Data Analytics: CLT and Confidence Interval**](Walmart/Notebook/Walmart_CLT.ipynb)
 - [**Yulu Data Analytics: Hypothesis Testing**](Yulu/Notebook/Yulu_HypothesisTesting.ipynb)
-- [**Delhivery Feature Engineering: Feature Cleaning & Transformation**](Delhivery/Notebook/Delhivery_FE.ipynb)
+- [**Delhivery Feature Engineering: Feature Cleaning & Transformation**](Delhivery/Notebook/Delhivery_FeatureEngineering.ipynb)
 
 ## Target Retail Analytics
 - #### Tools and Libraries
@@ -138,4 +138,23 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
 - #### Tools and Libraries 
   - Python, Numpy, Pandas, Matplotlib
 - #### Feature Transformations
+  - `data => data`
+  - `trip_creation_time => trip_creation_date, trip_creation_hour`
+  - `route_type => Cart, FTL`
+  - `trip_uuid => trip_uuid`
+  - `source_center => Dropped`
+  - `source_name => source_city, source_state`
+  - `destination_name => dest_city, dest_state`
+  - `start_scan_to_end_scan => start_scan_to_end_scan`
+  - `is_cutoff => is_cutoff`
+  - `cutoff_factor => cutoff_factor`
+  - `cutoff_timestamp => cufoff_date, cufoff_time`
+  - `actual_distance_to_destination => actual_distance_to_destination`
+  - `actual_time => actual_time`
+  - `osrm_time => osrm_time`
+  - `osrm_distance => osrm_distance`
+  - `segment_actual_time => segment_actual_time`
+  - `segment_osrm_time => segment_osrm_time`
+  - `segment_osrm_distance => segment_osrm_distance`
+  - `route_schedule_uuid, source_center, destination_center, od_start_time, od_end_time, factor, segment_factor => Dropped`
 - #### Business Insights and Recommendations
