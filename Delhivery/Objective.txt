@@ -131,3 +131,13 @@ Columns:
 'segment_osrm_time', : Completed
 'segment_osrm_distance', : Completed
 'segment_factor': Completed
+
+Hypothesis Tests:
+- Check Distributions
+	- actual_time, osrm_time
+	- actual_time, segment_actual_time
+	- osrm_time, segment_osrm_time
+	- actual_distance_to_destination, osrm_distance
+	- osrm_distance, segment_osrm_distance
+- actual delivery time between Cart and FTL is significantly different?
+- 
