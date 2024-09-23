@@ -157,4 +157,6 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
   - `segment_osrm_time => segment_osrm_time`
   - `segment_osrm_distance => segment_osrm_distance`
   - `route_schedule_uuid, source_center, destination_center, od_start_time, od_end_time, factor, segment_factor => Dropped`
-- #### Business Insights and Recommendations
+- #### Business Insights 
+- #### Recommendations
+  - 
