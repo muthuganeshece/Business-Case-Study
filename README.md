@@ -2,7 +2,7 @@
 Hi👋🏾, Welcome to the Business Case Study Repository! This repository contains a collection of business case studies of various industries dataset.
 
 ## Contents
-- [**Target Retail Analytics using SQL**](Target SQL/Target_SQL.pdf)
+- [**Target Retail Analytics using SQL**](https://github.com/muthuganeshece/Business-Case-Study/tree/main/Target%20SQL)
 - [**Netfix Data Exploration and Visualization**](Netflix/Notebook/EDA.ipynb)
 - [**Aerofit Descriptive Analytics**](Aerofit/Notebook/EDA.ipynb)
 - [**Walmart Data Analytics: CLT and Confidence Interval**](Walmart/Notebook/Walmart_CLT.ipynb)
