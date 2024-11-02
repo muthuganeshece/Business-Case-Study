@@ -157,6 +157,33 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
   - `segment_osrm_time => segment_osrm_time`
   - `segment_osrm_distance => segment_osrm_distance`
   - `route_schedule_uuid, source_center, destination_center, od_start_time, od_end_time, factor, segment_factor => Dropped`
-- #### Business Insights 
+- #### Business Insights
+  - `All numerical variables are right-skewed with outliers, requiring data preprocessing`
+  - `The dataset spans 22 days and contains only domestic deliveries`
+  - `Null values are present in the source_name and destination_name fields, needing to be addressed`
+  - `Data is split into 70/30 for training/testing`
+  - `Actual time/OSRM time ratio (factor) and segment_actual_time/segment_osrm_time ratio (segment_factor) are key variables`
+  - `The longest delivery route is between IND284403 and IND474003, consuming more time`
+  - `Night trips dominate delivery creation, but take longer`
+  - `Bengaluru, Hyderabad, and Mumbai handle the majority of intra-city deliveries`
+  - `For intercity deliveries, the Bhiwandi <-> Mumbai and Gurgaon <-> Delhi corridors are the busiest`
+  - `Maharashtra, Karnataka, and Tamil Nadu handle the majority of intra-state deliveries`
+  - `Delhi <-> Haryana and Haryana <-> UP are the busiest inter-state corridors`
+  - `Actual time and segment actual time follow the same distribution, but OSRM time and segment OSRM time do not, indicating inconsistencies in the OSRM data`
+  - `OSRM distance and segment OSRM distance follow different distributions, highlighting discrepancies in dataset accuracy`
+  - `Trucks take longer on average compared to carts, suggesting trucks are used for longer routes`
 - #### Recommendations
-  - 
+  - ***Improve Overnight Trip Scheduling:***
+    - `Overnight trips take more time to complete`
+    - `To optimize, schedule multiple overnight trips to minimize delays`
+  - ***Focus on Tier II and Tier III Cities:***
+    - `Since the majority of deliveries occur between metro cities, redirect focus to develop logistics in tier II and III cities for future growth`
+  - ***Enhance Logistics for Northern-Eastern Trips:***
+    - `Although northern-southern trips cover long distances, northern-eastern trips consume more time`
+    - `Invest in better logistics infrastructure to improve delivery efficiency in the eastern regions`
+  - ***Recalibrate OSRM Time Algorithm:***
+    - `Actual Time and OSRM Time doesn't follow same distribution, indicates that there is a mismatch in the OSRM time calcualtion algorithm`
+    - `Infact, mean actual time is greater than mean OSRM time, indicates the algorithm underestimates the delivery time OSRM Time estimation algorithm to be recalibrated to better plan the deliveries`
+  - ***Recalibrate OSRM Distance Algorithm:***
+    - `Actual Distance and OSRM Distance doesn't follow same distribution, indicates that there is a mismatch in the OSRM distance calcualtion algorithm`
+    - `OSRM Distance estimation algorithm to be recalibrated to better plan the deliveries`
