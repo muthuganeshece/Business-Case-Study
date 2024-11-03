@@ -10,8 +10,12 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
 - [**Delhivery Feature Engineering: Feature Cleaning & Transformation**](Delhivery/Notebook/Delhivery_FeatureEngineering.ipynb)
 
 ## Target Retail Analytics
-- #### Tools and Libraries
-  - SQL
+  - #### Tools and Libraries
+    - SQL, BigQuery
+  - #### Recommendations
+    - `Based on Freight Value The freight value for SP, RJ and MG are the highest, indicating that many products ordered from these states may not have nearby sellers. Consequently, identifying frequent product sellers from these states or nearby could help reduce freight costs.`
+    - `Based on customer strength in states Customers are not evenly distributed across states; approximately 70% of customers are from SP, RJ, and MG. Moreover, it's likely that a significant portion of these customers resides in tier I cities. Focusing promotional efforts on tier II cities could potentially boost revenue. Additionally, implementing targeted advertising and offering discounts based on geographical location may further enhance sales.`
+    - `Based on payment Given the predominant use of credit cards in purchases, implementing discounts or cashback offers tied to credit card could significantly enhance sales`
 
 ## Netfix Data Analytics
 To enhance Netflix's revenue, a key strategy is to increase user subscriptions. This can be achieved by analyzing the existing Netflix dataset to identify patterns, preferences, and gaps in the current content offerings. By understanding what drives user engagement and satisfaction, we can make data-driven decisions to attract and retain more subscribers.
