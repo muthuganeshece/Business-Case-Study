@@ -138,7 +138,7 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
     	- `Increase prices during peak seasons with high demand and offer discounts or promotions during off-peak seasons to encourage usage`
     	- `Create seasonal marketing campaigns that highlight the benefits of cycling in each season`
 
-## Delhivery Data Analytics: Feature Engineering 
+## Delhivery Feature Engineering: Feature Transformation & Cleaning
 - #### Tools and Libraries 
   - Python, Numpy, Pandas, Matplotlib
 - #### Feature Transformations
