@@ -8,7 +8,7 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
 - [**Walmart Data Analytics: CLT and Confidence Interval**](Walmart/Notebook/Walmart_CLT.ipynb)
 - [**Yulu Data Analytics: Hypothesis Testing**](Yulu/Notebook/Yulu_HypothesisTesting.ipynb)
 - [**Delhivery Feature Engineering: Feature Cleaning & Transformation**](Delhivery/Notebook/Delhivery_FeatureEngineering.ipynb)
-- [**Jumboree Education: Linear Regression**]
+- [**Jamboree Education: Linear Regression**]
 
 ## Target Retail Analytics
   - #### Tools and Libraries
@@ -192,3 +192,7 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
   - ***Recalibrate OSRM Distance Algorithm:***
     - `Actual Distance and OSRM Distance doesn't follow same distribution, indicates that there is a mismatch in the OSRM distance calcualtion algorithm`
     - `OSRM Distance estimation algorithm to be recalibrated to better plan the deliveries`
+
+## Jamboree Education: Linear Regression 
+- #### Tools and Libraries 
+  - Python, Numpy, Pandas, SKlearn, Statsmodel
