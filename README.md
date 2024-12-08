@@ -196,3 +196,4 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
 ## Jamboree Education: Linear Regression 
 - #### Tools and Libraries 
   - Python, Numpy, Pandas, SKlearn, Statsmodel
+- #### Insights
