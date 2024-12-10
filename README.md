@@ -198,3 +198,4 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
   - Python, Numpy, Pandas, SKlearn, Statsmodel
 - #### Insights
 - #### Recommendations 
+  - Linear model could able to achieve 75% score it is recommended to apply non linear machine learning techniques for better score
