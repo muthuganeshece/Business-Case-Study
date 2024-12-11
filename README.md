@@ -197,5 +197,6 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
 - #### Tools and Libraries 
   - Python, Numpy, Pandas, SKlearn, Statsmodel
 - #### Insights
+  - GRE score, TOEFL Score and CGPA are highly correlated 
 - #### Recommendations 
   - Linear model could able to achieve 75% score it is recommended to apply non linear machine learning techniques for better score
