@@ -85,3 +85,49 @@ Comments on additional data sources for model improvement, model implementation 
 
 GRE Score: Normally distributed and no iqr outliers are observed
 
+- Data Characteristics
+	- **Serial No.**: 
+		- All are Unique values might not be helpful for prediction, hence should be ignored before prediction
+	- **GRE Score, TOEFL Score**: 
+		- Mean ~= Median indicating Central Tendency
+		- Data is distributed normally and having spread out peak or flat peak
+		- No gaps in distribution plot indicates the data is Continuous with no missing range 
+	- **Cumulative Grade Point Average (CGPA)**: 
+		- Ranges from 6.8 to 9.92, 
+		- Data is distributed normally and having sharp peak
+		- Gap between 7 and 7.5 in the distribution plot indicates the missing range in the data
+	- **University Rating**: 
+		- Ordinal Feature ranges from 1 to 5
+		- Ratings in the range 2-4 being 80% of proportion
+		- Average rated universities (3) are the most in dataset
+	- ** Statement of Purpose (SOP)**: 
+		- Ordinal Feature ranges from 1 to 5 with resolution 0.5
+		- Strength in the range 2.5-4.5 being 80% of proportion
+		- Lowest strength (1) is neglegible (1.2%) and can be ignored or merged
+	- **Letter of Recommendation (LOR)**: 
+		- Ordinal Feature ranges from 1 to 5 with resolution 0.5
+		- Strength in the range 3-4 being ~60% of proportion
+		- Lowest strength (1) is neglegible (0.2%)
+	- **Research**: 
+		- Binary categorical feature with equal distribution		
+	- **Change of Admit**: 
+		- Probability of getting Admission ranges from 0.4 to 1
+- Exploratory Data Analysis		
+	- No null values and no iqr outliers are identified indicating clean dataset
+	- Students from universities with higher ratings (3+) are more likely to have research experience
+	- Students having research experience are more likely to have higher SOP and LOR strengths (3+)
+	- Students having research experience are mostly likely to get higher scores in GRE, TOEFL and Curriculum
+	- Strength of relationship between categorical features: (University rating and SOP) > (University rating and LOR) > (SOP and LOR)
+	- All 3 numerical features are highly linearly correlated
+	- Students having high CGPA are more likely to have higher GRE and TOEFL Score
+	- Students scored more in the GRE, TOEFL and Curriculum are having higher SOP strength, LOR strength
+	- Balanced distribution of the target is observed for <0.5 (~50%) and > 0.5 (~50%)
+	- GRE Score, TOEFL Score and CGPA all are linearly correlated with Chance of getting Admission
+	- University rating, SOP, LOR and Research experience are positively and linearly correlated with Chance of Admission
+	
+Recommendations:
+- Data Preprocessing:
+	- SOP: Ratings 1, 1.5 and 2.0 can be merged, 4.5 and 5.0 can be merged
+	- LOR: Ratings 1, 1.5, 2.0 and 2.5 can be merged, 4.5 and 5.0 can be merged
+	- University Rating: Ratings 1 and 2 can be merged, 4 and 5 can be merged
+	- Transform all the ratings to ordinal categorical data
