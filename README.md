@@ -198,6 +198,7 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
   - Python, Numpy, Pandas, SKlearn, Statsmodel
 - #### Insights
   - GRE score, TOEFL Score and CGPA are highly correlated 
-  - Higher the GRE score, TOEFL score and CGPA mostly likely to get the admission 
+  - Higher the GRE score, TOEFL score and CGPA mostly likely to get the admission
+  - Students with higher test scores (GRE, TOEFL, CGPA) are mostly likely from the highly rated (3+) universities
 - #### Recommendations 
   - Linear model could able to achieve 75% score it is recommended to apply non linear machine learning techniques for better score
