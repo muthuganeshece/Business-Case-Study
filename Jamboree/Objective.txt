@@ -124,10 +124,53 @@ GRE Score: Normally distributed and no iqr outliers are observed
 	- Balanced distribution of the target is observed for <0.5 (~50%) and > 0.5 (~50%)
 	- GRE Score, TOEFL Score and CGPA all are linearly correlated with Chance of getting Admission
 	- University rating, SOP, LOR and Research experience are positively and linearly correlated with Chance of Admission
-	
+	- PCA Analysis:
+		- The first principal component from PCA explains approximately 65% of the variance in the data
+		- The first principal component is constructed with nearly equal contributions from all features in the dataset
+		- Out of 7 features from the dataset, First 3 principal components captures >85% of variance in data
+	- Statistical Tests:
+		- Chance of admission for each Category of University Rating, LOR and SOP are significantly different indicating the segregration is independent
+		- The contingency test confirms that the categorical features (University Rating, LOR and SOP) are significantly dependent on each other
+	- Linear Regression:
+		- Train: RMSE = 0.042, R2 Score = 0.83, Adj. R2 Score = 0.83
+		  Test:  RMSE = 0.044, R2 Score = 0.77, Adj. R2 Score = 0.76
+		- Moderate performance of the model
+		- Based on the coefficients, GRE SCore, TOEFL Score, CGPA, LOR are given higher weightage indicating the significance of the features for the prediction
+		- Weightages of all the features are positive indicating the positive correlation		
+	- Polynomial Regression: (Degree = 2)
+		- Train: RMSE = 0.039, R2 Score = 0.84, Adj. R2 Score = 0.83
+		  Test:  RMSE = 0.047, R2 Score = 0.76, Adj. R2 Score = 0.634
+		- Doesn't improve the performance much
+		- Slightly overfits based on the Train and Test RMSE
+	- Ridge Regression:
+		- Train: RMSE = 0.042, R2 Score = 0.83, Adj. R2 Score = 0.83
+		  Test:  RMSE = 0.044, R2 Score = 0.77, Adj. R2 Score = 0.76	
+		- The test performance of the  model improves significantly compared to Linear Regression model(7% improvement)
+		- Increasing the regularization constant  increases RMSE and decreases R2 score which is undesirable
+	- Lasso Regression:
+		- Train: RMSE = 0.042, R2 Score = 0.83, Adj. R2 Score = 0.82
+		  Test:  RMSE = 0.043, R2 Score = 0.82, Adj. R2 Score = 0.80	
+		- The test performance of the  model improves significantly compared to Linear Regression model(7% improvement) but same as that of Ridge
+		- Increasing the regularization constant drastically increases RMSE and decreases R2 score which is undesirable		
+		- Significant improvement observed at very low regularization constant values (<0.01)
+	- Elastic Net Regression:
+		- Similar performance as that of Ridge and Lasso Regression, no significant improvement observed
+	- Assumptions of Linear Regression:
+		- Multicollinearity Analysis: 
+			- GRE, TOEFL Score and CGPA having very high VIF value indicating the high linear dependency between the features
+			- Without GRE and TOEFL Score, VIF is drastically reduced for CGPA indicating the dependency of the 3 features
+			- Without University rating and SOP, VIF of LOR is drastically reducted indicating the dependency of the 3 features
+		- Removing collinear features doesn't improve the performance of linear regression model but slightly reduces its performance
 Recommendations:
 - Data Preprocessing:
-	- SOP: Ratings 1, 1.5 and 2.0 can be merged, 4.5 and 5.0 can be merged
-	- LOR: Ratings 1, 1.5, 2.0 and 2.5 can be merged, 4.5 and 5.0 can be merged
-	- University Rating: Ratings 1 and 2 can be merged, 4 and 5 can be merged
+	- As the population of certain categories are less in the following categorical features, categories can be merged
+		- SOP: Ratings 1, 1.5 and 2.0 can be merged, 4.5 and 5.0 can be merged
+		- LOR: Ratings 1, 1.5, 2.0 and 2.5 can be merged, 4.5 and 5.0 can be merged
+		- University Rating: Ratings 1 and 2 can be merged, 4 and 5 can be merged
 	- Transform all the ratings to ordinal categorical data
+- Modeling:
+	- Simple Linear Regression model provides mediocre performance hence non linear model can be applied
+	- Polynomial Regressiuon of degree 2 also doesn't improve the performance, higher degree can be tried. However, model overfitting behaviour should be monitored
+	- In the family of linear models, Ridge Regression provides better performance (7% improvement compared to Linear Regression) at alpha <= 0.1
+	
+
