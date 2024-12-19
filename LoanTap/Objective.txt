@@ -115,3 +115,36 @@ Questionnaire (Answers should present in the text editor along with insights):
 - How does the gap in precision and recall affect the bank?
 - Which were the features that heavily affected the outcome?
 - Will the results be affected by geographical location? (Yes/No)
+
+
+Analysis:
+- Categorical Features
+	- term
+	- grade
+	- sub_grade
+	- emp_title(High number of unique values observed)
+	- emp_length
+	- home_ownership
+	- verification_status
+	- issue_d (Date time)
+	- loan_status (Target variable)
+	- purpose
+	- title (High number of unique values observed)
+	- earliest_cr_line (Date time)		
+	- initial_list_status
+	- application_type
+- Numerical Features
+	- loan_amnt
+	- int_rate
+	- installment (More analysis)
+	- annual_inc 
+	- dti
+	- open_acc
+	- pub_rec
+	- revol_bal
+	- revol_util
+	- total_acc
+	- mort_acc
+	- pub_rec_bankruptcies
+
+Address: Address of the individual
