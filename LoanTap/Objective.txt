@@ -115,13 +115,14 @@ Questionnaire (Answers should present in the text editor along with insights):
 - How does the gap in precision and recall affect the bank?
 - Which were the features that heavily affected the outcome?
 - Will the results be affected by geographical location? (Yes/No)
-
-
 Analysis:
 - Categorical Features
-	- term
+	- term:
+		- 75% of the loan applied are short term (36 months)
 	- grade
+		- A, B and C grades are >70%
 	- sub_grade
+		- 
 	- emp_title(High number of unique values observed)
 	- emp_length
 	- home_ownership
@@ -144,7 +145,106 @@ Analysis:
 	- revol_bal
 	- revol_util
 	- total_acc
+
+Analysis:
+- Categorical Features
+	- term:
+		- 75% of the loan applied are short term (36 months)
+	- grade
+		- A, B and C grades are >70%
+		- *Combinedly Grades E, F and G contribute for < 10%. Hence merging can be done
+		- E, F, G => E
+	- sub_grade
+		- Subgrads of B and C contribute more followed by A and D grades
+		- *Possibility of merging need to be analysed
+		- E1, F1, G1 => E1
+	- emp_title(High number of unique values observed)
+		- Teachers and Managers are top borrowers 
+		- Borrowers from Technology services are less
+	- emp_length
+		- Professionals with 10+ years contribute for the majority of the loan
+		- Professionals with < 5 years are ~50%
+		- *Possibility of binning can be studied
+		- 0 to 2: ["<1 year", "1 year", "2 years"]
+		- 3 to 5: ["3 years", "4 years", "5 years"]
+		- 6 to 9: ["6 years", "7 years", "8 years", "9 years"]
+	- home_ownership
+		- 50% of Borrowers have their home in loan followed by the 40% of borrowers let out their property for rent
+		- Merge 'Other', 'None' and 'Any' categories
+		- "Other": ['Other', 'None' and 'Any']
+	- verification_status
+		- the categories are almost equally distributed
+	- issue_d (Date time)
+	- loan_status (Target variable)
+		- 80/20 distribution of Binary target feature indicating imbalanced dataset
+		
+	- purpose
+		- 80% of the loan is applied to settle or pay the bills of another loan indicating multiple debts
+		- *Possibility of merging need to be analysed 
+		- except debt_consolidation and credit_card to "others"
+	- title (High number of unique values observed)
+		- Seems to be duplicate of purpose, hence can be ignored
+	- open_acc
+		- Right skewed distribution indicates outliers, proper outlier treatment is required
+		- *Outlier saturation treatment can be done
+		- [0, 5, 10, 15, 20, 25]
+	- pub_rec	
+		- Huge no. of outliers are identified
+		- *Outlier treatment required
+		- 2+: >=2
+	- earliest_cr_line (Date time)		
+	
+	- initial_list_status
+		- 60/40 distribution is observed between the binary categories 
+	- application_type
+		- Highly imbalanced data with one category dominated by 99.8% 
+		- Since other categories doesn't contribute, feature can be ignored
 	- mort_acc
+		- ordinal feature, right skew indicates outliers
+		- *Possibility of merging to be studied
+		- 1=> 1,2
+		- 2=> 3-7
+		- 3 => 8+
 	- pub_rec_bankruptcies
+		- Highly imbalanced data with one category dominating by 88.5% 
+		- Hence other categories can be merged together and make it binary feature
+		- 0, 1+
+	- pincode
+		- Nominal feature indicating the loans are from less number of cities
+		- 86630, 93700, 11650 can be merged as their contribution is very less
+		- "others":[86630, 93700, 11650]
+- Numerical Features
+	- loan_amnt
+		- slightly right skewed and very less iqr outliers observed
+	- int_rate
+		- Right skewed and significant outliers are observed
+		- *Outlier treatment required
+	- installment 		
+		- Right skewed and significant outliers are observed
+		- *Outlier treatment required
+	- annual_inc 
+		- Huge outliers are observed
+		- *Robust outlier treatment is required
+	- dti
+		- Huge outliers are observed
+		- *Robust outlier treatment is required
+		- Without outliers the data is normally distributed with flat peak
+	- revol_bal
+		- Huge outliers are observed
+		- *Robust outlier treatment is required
+		- Without outliers the data is right skewed
+	- revol_util
+		- Huge outliers are observed
+		- *Robust outlier treatment is required
+		- Without outliers the data is normally distributed with sharp peak
+	- total_acc
+		- Significant outliers are observed
+		- Without outliers the data is normally distributed with flat peak
+
+- Date Features
 
 Address: Address of the individual
+
+9566470354
+
+5116877-70403836822
