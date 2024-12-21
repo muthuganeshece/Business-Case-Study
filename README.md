@@ -203,3 +203,9 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
   - Students with higher test scores (GRE, TOEFL, CGPA) are mostly likely from the highly rated (3+) universities
 - #### Recommendations 
   - Linear model could able to achieve 75% score it is recommended to apply non linear machine learning techniques for better score
+
+
+## LoanTap: Logistic Regression 
+- #### Tools and Libraries 
+  - Python, Numpy, Pandas, SKlearn, Statsmodel
+- #### Insights
