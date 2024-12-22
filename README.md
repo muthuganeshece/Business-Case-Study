@@ -9,7 +9,7 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
 - [**Yulu Data Analytics: Hypothesis Testing**](Yulu/Notebook/Yulu_HypothesisTesting.ipynb)
 - [**Delhivery Feature Engineering: Feature Cleaning & Transformation**](Delhivery/Notebook/Delhivery_FeatureEngineering.ipynb)
 - [**Jamboree Education: Linear Regression**](Jamboree/Notebook/Jamboree_LinearRegression.ipynb)
-- [**LoanTap: Logistic Regression**](Jamboree/Notebook/Jamboree_LinearRegression.ipynb)
+- [**LoanTap: Logistic Regression**](LoanTap/Notebook/LoanTap_LogisticRegression.ipynb)
 
 ## Target Retail Analytics
   - #### Tools and Libraries
