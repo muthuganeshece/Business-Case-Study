@@ -9,6 +9,7 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
 - [**Yulu Data Analytics: Hypothesis Testing**](Yulu/Notebook/Yulu_HypothesisTesting.ipynb)
 - [**Delhivery Feature Engineering: Feature Cleaning & Transformation**](Delhivery/Notebook/Delhivery_FeatureEngineering.ipynb)
 - [**Jamboree Education: Linear Regression**](Jamboree/Notebook/Jamboree_LinearRegression.ipynb)
+- [**LoanTap: Logistic Regression**](LoanTap/Notebook/LoanTap_LogisticRegression.ipynb)
 
 ## Target Retail Analytics
   - #### Tools and Libraries
@@ -202,3 +203,9 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
   - Students with higher test scores (GRE, TOEFL, CGPA) are mostly likely from the highly rated (3+) universities
 - #### Recommendations 
   - Linear model could able to achieve 75% score it is recommended to apply non linear machine learning techniques for better score
+
+
+## LoanTap: Logistic Regression 
+- #### Tools and Libraries 
+  - Python, Numpy, Pandas, SKlearn, Statsmodel
+- #### Insights
