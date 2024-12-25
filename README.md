@@ -207,5 +207,5 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
 
 ## LoanTap: Logistic Regression 
 - #### Tools and Libraries 
-  - Python, Numpy, Pandas, SKlearn, Statsmodel
+  - Python, Numpy, Pandas, SKlearn, Scipy
 - #### Insights
