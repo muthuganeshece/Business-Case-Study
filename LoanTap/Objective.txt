@@ -100,6 +100,7 @@ How can we make sure that our model can detect real defaulters and there are les
 Since NPA (non-performing asset) is a real problem in this industry, it’s important we play safe and shouldn’t disburse loans to anyone. (10 Points)
 Actionable Insights & Recommendations (10 Points)
 
+
 Questionnaire (Answers should present in the text editor along with insights):
 
 - What percentage of customers have fully paid their Loan Amount?
@@ -243,8 +244,9 @@ Analysis:
 
 - Date Features
 
-Address: Address of the individual
-
-9566470354
-
-5116877-70403836822
+- 60 months term loan is highly likely to be defaulted
+- Professionals with >10 years are highly likely to default
+- verified accounts are less likely to be charged off
+- Customers having 0 mortgage accounts are less likely to default
+- Geographical location (pincode) extracted from address highly influence the loan defaulting
+- 
