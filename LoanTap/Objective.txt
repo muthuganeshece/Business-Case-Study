@@ -244,9 +244,102 @@ Analysis:
 
 - Date Features
 
-- 60 months term loan is highly likely to be defaulted
-- Professionals with >10 years are highly likely to default
-- verified accounts are less likely to be charged off
-- Customers having 0 mortgage accounts are less likely to default
-- Geographical location (pincode) extracted from address highly influence the loan defaulting
-- 
+# Business Insights
+- 36 months is the preferred tenure in the loan
+- Grade B is given for the majority of the customers
+- Subgrade B3 (Might be the subgrade of grade B) is given for the majority of the customers
+- Majority of the Professional Teachers are looking for the loan
+- 10+ years experienced professional are looking for the loan
+- Mortgaged home owners are majorly looking for the loan, as their income is already locked for EMI
+- Majority of the income status of the customers are verified
+- Loan status is Fully paid (Trustable Customer), Charged Off (Defaulter)
+- Majority of the borrowers are expecting loan to close another debt indicating the borrowers already have a debt
+- Majority of the borrowers are expecting loan to close another debt
+- issue_d, earliest_cr_line are Date Features
+- Majority of the borrowers are individual
+- Average loan amount in the dataset is ~14000 and 500 being the lowest loan amount 
+- The interest rate ranges from ~5% to ~31% and the average being ~13%
+- Average installment amount is ~400 and ~16 being the lowest loan amount 
+- Average annual increment mentioned by borrowers are in the range of 0 to 8.7million 
+- Difference between Q3 and max indicates the highly right skewed data
+- Average Open credit lines of the borrowers is ~11 
+- The Difference between Q3 and max indicates the highly right skewed data
+- The Difference between Q3 and max indicates the highly right skewed data
+- Average revolving balance is ~15000 while applying for the loan
+- Average number of credit lines is ~25 while applying for the loan
+- **mort_acc:**
+	- Average number of mortgage accounts is ~2 while applying for the loan
+	- The Difference between Q3 and max indicates the highly right skewed data
+- For pub_rec_bankruptcies, the Difference between Q3 and max indicates the highly right skewed data
+- Null Values in the dataset are identified for features mort_acc, emp_title, emp_length, title, pub_rec_bankruptcies and revol_util
+- open_acc, pub_rec, mort_acc, pub_rec_bankruptcies are defined as numerical but should be changed to categorical
+- Extracted the pincode from the complete textual address, gives following actionable insights
+	- Notably, loans were applied from only 10 unique pincodes, suggesting that borrowers are concentrated in a small number of cities. 
+	- Also this indicates that the "Loantap" business is not yet widely recognized.
+- The majority of loans were issued between 2013 and 2015, with October and July emerging as the top two months for loan approvals
+- The distribution of the earliest credit line is left-skewed and centered around the year 2000, indicating that most borrowers began their credit journey during this period
+- Following features are highly correlated
+    - loan amount and installment
+    - open acc and total acc
+    - pub rec and pub rec bankruptcies
+- Outliers in the data make it challenging to draw meaningful inferences.
+- A clear distinction is observed in the distribution of interest rate and DTI (debt-to-income ratio) between loyal customers and defaulters.
+- Other features show no significant difference in their distribution relative to the target variable, though this needs to be validated through statistical tests.
+- The ratio of fully paid loan to default loan is high on the year 2013
+- People with grades ‘A’ are more likely to fully pay their loan
+- Loans with a 60-month term are significantly more likely to result in default.
+- Professionals with over 10 years of experience show a higher likelihood of defaulting on their loans.
+- Verified accounts have a reduced likelihood of being charged off.
+- Customers with 0 mortgage accounts are less prone to default.
+- The geographical location (pincode) extracted from the address plays a crucial role in influencing loan defaults.
+- Mortgaged homeowners show a significant tendency to default on their loans.
+- Customers with an A-grade credit rating are substantially less likely to default.
+- Other features do not show a significant impact on loan repayment behavior.
+- Churn Ratio: No. of Charged off/No. of Fully paid
+    - 2015 and 2016 years dominate in churn ratio, hence issue_yr is a contributing factor
+    - Churn ratio over months shows similar trend, hence issue_mon doesn't provide significant contribution for churning
+- Principal Component Analysis:
+	- The first principal component, which explains approximately 65% of the variance in the data, is constructed with nearly equal contributions from all features in the dataset
+	- Since all the features equally contribute for PC1, all are comparably important in explaining the variance of the dataset
+	- Out of 24 features from the dataset, First 5 principal components captures >60% of variance in data
+	- Dimensionality reduction is possible by reducing 4-5 features as it captures <5% of variance in data
+- Statistical Tests:
+	- The means between the categories for most of the features are significantly different, suggesting that these features could effectively classify loan status
+	- Whereas no significant difference between the means of the categories of revol_bal, indicating that this feature may have limited utility in distinguishing between loan statuses during modeling
+	- The contingency test confirms that loan status is dependent on most of the categorical features, suggesting their effectiveness in classifying loan status.
+	- However, the features pub_rec and pub_rec_bankruptcies show no dependency on loan status, indicating that these features may have limited influence on classification
+	- Logistic regression coefficients also confirms the above point
+- Modeling:
+	- Prediction of positive class is satisfactory as it achieves high precision and recall. High precision may also be the reason that the positive class is the majority class.
+	- False Positive Rate: Indicates the misclassification of defaulters. It results in incorrectly approving the loans for defaulters.
+	- FPR can result in significant revenue loss, as the bank risks losing the loan's principal amount, which may outweigh potential gains from interest.
+	- Based on the PR curve of positive class, an optimal threshold of 0.7 is chosen (by trading off between precision and recall)
+	- It significantly reduces the false positive rate by 20% and improves the f1 score of negative class by 10%
+	- The regression coefficients indicate that subgrade and pincode provides major contribution to the model.
+	- Conversely, pub_rec and pub_rec_bankruptcies show negligible contribution, suggesting minimal impact on the target variable.
+	- Features such as term, installment, annual_inc, dti, and mort_acc also demonstrate significant contributions to the model
+	- Class weightage technique to address the class imbalancement in the dataset doesn't significantly improve the performance
+	
+	
+
+- Missing values and Outlier Treatment:
+	- As the features emp_length, mort_acc, pub_rec_bankruptcies are categorical, the missing values are replaced with mode
+	- As the mean and median of revol_util are almost equal, median is used to replace the missing the values
+	- Outliers of int rate is handled using log transformation
+	- For other features, as the log transformation the outlier is far from the q3, hence upper bound is limited with iqr*1.5\
+- Data Transformation:
+	- earliest_cr_line is transformed to credit years and only year is extracted from issue date as new features
+	- Target encoding for Nominal features (replaced with its frequency)
+	- Label encoding for Ordinal features is performed
+- Modeling:
+	- Simple logistic regression model achieves the accuracy of 85% with F1 score being 0.91
+	- Based on the analysis of ROC and PR curve, a trade off between the precision and recall is achieved to reduce the false positive rate
+	- Regularization doesn't significantly impact the performance of the model and hence can be ignored
+
+# Business Recommendations:
+- Notably, loans were applied from only 10 unique pincodes, suggesting that borrowers are concentrated in a small number of cities. It indicates that the "Loantap" business is not yet widely recognized.
+Hence the firm should plan to extend or market it to other regions to increase the revenue
+- Due to the significant false positives in the model performance, it is recommended to conduct additional verification before finalizing from model prediction
+- Additional features to be included to improve the model performance in future
+- 15% of datapoints contain atlease one missing value indicating the data collection to be robust to improve the performance of the model
+
