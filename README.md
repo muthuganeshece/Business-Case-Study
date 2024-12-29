@@ -208,5 +208,9 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
 ## LoanTap: Logistic Regression 
 - #### Tools and Libraries 
   - Python, Numpy, Pandas, SKlearn, Scipy
-- #### Insights
-  - 80% of the loans are short term
+- #### Business Recommendations
+  - `Loans were primarily applied from only 10 unique pincodes, highlighting that borrowersare concentrated in a limited number of cities. This suggests that the "Loantap" businessis not yet widely recognized.
+It is recommended that the firm expand its reach orenhance marketing efforts in other regions to boost revenue`
+  - `The model exhibits a significant number of false positives, indicating a need for additional verification steps before finalizing decisions based on modelpredictions`
+  - `To improve the model's performance, additional features should be incorporated infuture iterations`
+  - `Around 15% of the data points contain at least one missing value. This indicates the need for a more robust data collection process to enhance model reliability andperformance`
