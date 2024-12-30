@@ -208,6 +208,21 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
 ## LoanTap: Logistic Regression 
 - #### Tools and Libraries 
   - Python, Numpy, Pandas, SKlearn, Scipy
+- #### Topics
+  - EDA
+    - UVA, BVA, MVA
+    - Null Analysis
+  - Outlier Treatment
+  - PCA
+  - Feature Transformation 
+  - Statistical Tests
+     - Two sample T-Test
+     - Chisquare Test
+  - Modeling
+    - Hyperparameter Tuning
+  - Performance Analysis
+    - Confusion Matrix 
+    - AUC ROC, PR curve
 - #### Business Recommendations
   - `Loans were primarily applied from only 10 unique pincodes, highlighting that borrowersare concentrated in a limited number of cities. This suggests that the "Loantap" businessis not yet widely recognized.
 It is recommended that the firm expand its reach orenhance marketing efforts in other regions to boost revenue`
