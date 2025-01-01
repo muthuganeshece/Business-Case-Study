@@ -229,3 +229,4 @@ It is recommended that the firm expand its reach orenhance marketing efforts in 
   - `The model exhibits a significant number of false positives, indicating a need for additional verification steps before finalizing decisions based on modelpredictions`
   - `To improve the model's performance, additional features should be incorporated infuture iterations`
   - `Around 15% of the data points contain at least one missing value. This indicates the need for a more robust data collection process to enhance model reliability andperformance`
+  - `Simple logistic regression model achieves the accuracy of 85% with F1 score being 0.91`
