@@ -219,6 +219,7 @@ Aerofit, a leading brand in the fitness equipment industry, offers a diverse pro
      - Two sample T-Test
      - Chisquare Test
   - Modeling
+    - Logistic Regression 
     - Hyperparameter Tuning
   - Performance Analysis
     - Confusion Matrix 
