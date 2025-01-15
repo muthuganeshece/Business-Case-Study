@@ -155,12 +155,13 @@ GRE Score: Normally distributed and no iqr outliers are observed
 		- Significant improvement observed at very low regularization constant values (<0.01)
 	- Elastic Net Regression:
 		- Similar performance as that of Ridge and Lasso Regression, no significant improvement observed
-	- Assumptions of Linear Regression:
-		- Multicollinearity Analysis: 
-			- GRE, TOEFL Score and CGPA having very high VIF value indicating the high linear dependency between the features
-			- Without GRE and TOEFL Score, VIF is drastically reduced for CGPA indicating the dependency of the 3 features
-			- Without University rating and SOP, VIF of LOR is drastically reducted indicating the dependency of the 3 features
-		- Removing collinear features doesn't improve the performance of linear regression model but slightly reduces its performance
+	- Multicollinearity Analysis: 
+		- GRE, TOEFL Score and CGPA having very high VIF value indicating the high linear dependency between the features
+		- Without GRE and TOEFL Score, VIF is drastically reduced for CGPA indicating the dependency of the 3 features
+		- Without University rating and SOP, VIF of LOR is drastically reducted indicating the dependency of the 3 features
+	- Removing collinear features doesn't improve the performance of linear regression model but slightly reduces its performance
+	- All the features have high correlation with Target variable and the clear curvature in the residuals plot indicates non-linearity
+	- Residual is almost normally distributed with slight skew
 Recommendations:
 - Data Preprocessing:
 	- As the population of certain categories are less in the following categorical features, categories can be merged
@@ -172,5 +173,6 @@ Recommendations:
 	- Simple Linear Regression model provides mediocre performance hence non linear model can be applied
 	- Polynomial Regressiuon of degree 2 also doesn't improve the performance, higher degree can be tried. However, model overfitting behaviour should be monitored
 	- In the family of linear models, Ridge Regression provides better performance (7% improvement compared to Linear Regression) at alpha <= 0.1
+	- A clear curvature in the residuals plot indicates non-linearity of the data, hence non linear model is required to improve the performance of the model
 	
 

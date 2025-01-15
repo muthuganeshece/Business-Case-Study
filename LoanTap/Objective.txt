@@ -313,28 +313,16 @@ Analysis:
 	- Prediction of positive class is satisfactory as it achieves high precision and recall. High precision may also be the reason that the positive class is the majority class.
 	- False Positive Rate: Indicates the misclassification of defaulters. It results in incorrectly approving the loans for defaulters.
 	- FPR can result in significant revenue loss, as the bank risks losing the loan's principal amount, which may outweigh potential gains from interest.
+	- False Negative Rate: Indicates the misclassification of loyal customers. The bank misses out on good business opportunities by rejecting creditworthy applicants
+    - `While this leads to revenue loss in terms of forgone interest, the loss is generally less critical compared to the risk associated with false positives
 	- Based on the PR curve of positive class, an optimal threshold of 0.7 is chosen (by trading off between precision and recall)
 	- It significantly reduces the false positive rate by 20% and improves the f1 score of negative class by 10%
 	- The regression coefficients indicate that subgrade and pincode provides major contribution to the model.
 	- Conversely, pub_rec and pub_rec_bankruptcies show negligible contribution, suggesting minimal impact on the target variable.
 	- Features such as term, installment, annual_inc, dti, and mort_acc also demonstrate significant contributions to the model
 	- Class weightage technique to address the class imbalancement in the dataset doesn't significantly improve the performance
-	
-	
 
-- Missing values and Outlier Treatment:
-	- As the features emp_length, mort_acc, pub_rec_bankruptcies are categorical, the missing values are replaced with mode
-	- As the mean and median of revol_util are almost equal, median is used to replace the missing the values
-	- Outliers of int rate is handled using log transformation
-	- For other features, as the log transformation the outlier is far from the q3, hence upper bound is limited with iqr*1.5\
-- Data Transformation:
-	- earliest_cr_line is transformed to credit years and only year is extracted from issue date as new features
-	- Target encoding for Nominal features (replaced with its frequency)
-	- Label encoding for Ordinal features is performed
-- Modeling:
-	- Simple logistic regression model achieves the accuracy of 85% with F1 score being 0.91
-	- Based on the analysis of ROC and PR curve, a trade off between the precision and recall is achieved to reduce the false positive rate
-	- Regularization doesn't significantly impact the performance of the model and hence can be ignored
+
 
 # Business Recommendations:
 - Notably, loans were applied from only 10 unique pincodes, suggesting that borrowers are concentrated in a small number of cities. It indicates that the "Loantap" business is not yet widely recognized.
@@ -342,4 +330,5 @@ Hence the firm should plan to extend or market it to other regions to increase t
 - Due to the significant false positives in the model performance, it is recommended to conduct additional verification before finalizing from model prediction
 - Additional features to be included to improve the model performance in future
 - 15% of datapoints contain atlease one missing value indicating the data collection to be robust to improve the performance of the model
+
 
