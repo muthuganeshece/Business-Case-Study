@@ -235,4 +235,4 @@ It is recommended that the firm expand its reach orenhance marketing efforts in 
 
 ## OLA: Ensemble Learning 
 - #### Tools and Libraries 
-  - Python, Numpy, Pandas, SKlearn, Scipy
+  - Python, Numpy, Pandas, SKlearn, imblearn
