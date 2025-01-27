@@ -124,3 +124,7 @@ Approach:
 - Drivers with large number of negative BVs are highly likely to churn
 - Drivers with recent quarterly rating of 1 are very highly likely to chrn
 - Drivers with positive change in quarterly rating are very much unlikley to churn
+- Drivers joined in the year 2020 are very much unlikely to churn
+- Drivers from city C20 is highly likely to churn and C29 is less likely to churn
+
+- Drivers with longer service duration is less likely to churn 
