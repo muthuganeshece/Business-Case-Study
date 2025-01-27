@@ -100,3 +100,27 @@ Results Evaluation (10 Points)
 ROC AUC Curve & comments
 Classification Report (Confusion Matrix etc)
 Actionable Insights & Recommendations (10 Points)
+
+Approach:
+- Transform Features:
+	- 'MMM-YY': Service in months (Count)
+	- 'Age': Mean
+	- 'Gender': Unique
+	- 'City': Unique
+	- 'Education_Level':Unique
+	- 'Income',: Mean, Recent
+	- 'Dateofjoining': Month, Year
+	- 'LastWorkingDate': Remove
+	- 'Joining Designation': Unique
+	- 'Grade',: Current-Initial, Recent
+	- 'Total Business Value': Mean, No. of neg business value
+	- 'Quarterly Rating': Current-Initial, Recent
+	- 'LWD_Flag': Target (Max)
+
+- Gender0 is highly likely to churn
+- Education levels are equally likely to churn-
+- Gradings 1 and 2 are highly likely to churn and 3 -5 are very unlinkely to churn
+- Joining designation of 1 and 2 majorly churns
+- Drivers with large number of negative BVs are highly likely to churn
+- Drivers with recent quarterly rating of 1 are very highly likely to chrn
+- Drivers with positive change in quarterly rating are very much unlikley to churn
