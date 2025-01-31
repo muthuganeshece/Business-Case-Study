@@ -118,14 +118,63 @@ Approach:
 	- 'Quarterly Rating': Current-Initial, Recent
 	- 'LWD_Flag': Target (Max)
 
-- Gender0 is highly likely to churn
-- Education levels are equally likely to churn-
-- Gradings 1 and 2 are highly likely to churn and 3 -5 are very unlinkely to churn
-- Joining designation of 1 and 2 majorly churns
-- Drivers with large number of negative BVs are highly likely to churn
-- Drivers with recent quarterly rating of 1 are very highly likely to chrn
-- Drivers with positive change in quarterly rating are very much unlikley to churn
-- Drivers joined in the year 2020 are very much unlikely to churn
-- Drivers from city C20 is highly likely to churn and C29 is less likely to churn
+Steps:
+- Basic data analysis
+- Group data based on Driver ID
+- EDA
+	- UVA, BVA, MVA
+- Statistical Analysis
+	- T-Test, Chi square test
+- Feature Transformation
+	- Categorical Encoding
+	- No scaling, as it is not required for tree based models
+- Modeling
+	- Logistic Regression
+	- Decision Tree Classifier
+	- Random Forest Model
+	- Gradient Boosting Classifier
+	- XGBoost
 
-- Drivers with longer service duration is less likely to churn 
+
+Insights:
+- Unnamed: 0 contains unique values, doesn't helpful for EDA and model building
+- 24 reporting days of drivers are collected in the dataset
+- Total number of drivers in the dataset are 2381 (Active: 765, Churned: 1616)
+- No. of Cities: 29
+- Average Income and Recent Income follows same distribution, also confirmed with kruskal walis test
+- Average Business Value is significantly right skewed
+- All the numerical features are severly affected with outliers
+- After removing na values, Lastworkingdate - JoiningDate calculation gives many negative values indicating many errors in joining date column
+- Most drivers are having quarterly rating of 1, indicating poor performance and Over 90% of drivers are graded between 1-3 (Average rating)
+- Change in Quarterly Rating typically follows a normal distribution centered at 0, showing that most drivers experience no significant change in their ratings
+- No of Negative Business Value rarely occurs, indicating minimal influence on driver churn prediction
+- Joining designation of over 95% of drivers are at grades 1-3, with grade 1 signifying novice drivers.
+- Majority of the drivers are joined after 2018, suggesting business growth and momentum post-2018
+- Education Level is equally distributed among drivers, indicating no strong correlation with churn. Also confirmed in the feature importance score of the model.
+- The dataset is heavily imbalanced with churned drivers of 68% and loyal/active drivers of 32%
+- Churning behaviors:
+	- Drivers with grades 1 and 2 are highly likely to churn, while those with grades 3-5 are very unlikely to churn
+	- Drivers with joining designations of 1 and 2 tend to churn more frequently
+	- Drivers with a large number of negative business values are highly likely to churn
+	- Drivers with a recent quarterly rating of 1 are very highly likely to churn
+	- Drivers with a positive change in their quarterly rating are very unlikely to churn
+	- Drivers who joined in 2020 are very unlikely to churn
+	- Drivers from city C20 are highly likely to churn, while those from city C29 are less likely to churn
+	- Drivers with longer service durations are less likely to churn
+	- Drivers contributing less business value are highly likely to churn
+	- Drivers earning below-average income are highly likely to churn
+	- Interestingly, Highly rated drivers or drivers with increase in quarterly rating churns more
+	- Drivers with more number of negative business values churn less likely
+	- Grade change and higher recent grade shows high possibility for churning, also confirmed it in the feature importance score of the model
+- Mean Age of drivers doesn't show significant relation to distinguish between churn and non churn drivers, hence the feature may not support model for prediction
+- Gender, Education Level and No. of negative business value features doesn't show significant relation with the churning of drivers and modeling results confirms the same	
+- Both QQPlot and Shapiro wilk test confirms that none of the numerical features follow normal distribution
+
+
+
+
+
+
+
+
+
