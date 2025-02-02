@@ -237,6 +237,6 @@ It is recommended that the firm expand its reach orenhance marketing efforts in 
 - #### Tools and Libraries 
   - Python, Numpy, Pandas, SKlearn, imblearn
 - Insights
-  - 
+  - Recent grading influences the prediction 
 
 - Recommendations 
