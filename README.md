@@ -1,4 +1,4 @@
-ji# Business Case study
+hiji# Business Case study
 Hi👋🏾, Welcome to the Business Case Study Repository! This repository contains a collection of business case studies of various industries dataset.
 
 ## Contents
@@ -237,6 +237,7 @@ It is recommended that the firm expand its reach orenhance marketing efforts in 
 - #### Tools and Libraries 
   - Python, Numpy, Pandas, SKlearn, imblearn
 - Insights
-  - Recent grading influences the prediction 
+  - Recent grading influences the prediction
+  - 
 
 - Recommendations 
