@@ -240,4 +240,5 @@ It is recommended that the firm expand its reach orenhance marketing efforts in 
   - Recent grading influences the prediction
   - 
 
-- Recommendations 
+- Recommendations
+  - Gradient boosting shows superior performance while XGBoost offers tradeoff between performance and speed
