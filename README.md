@@ -1,4 +1,4 @@
-ji# Business Case study
+hiji# Business Case study
 Hi👋🏾, Welcome to the Business Case Study Repository! This repository contains a collection of business case studies of various industries dataset.
 
 ## Contents
@@ -236,6 +236,9 @@ It is recommended that the firm expand its reach orenhance marketing efforts in 
 ## OLA: Ensemble Learning 
 - #### Tools and Libraries 
   - Python, Numpy, Pandas, SKlearn, imblearn
-- Business Insights
+- Insights
+  - Recent grading influences the prediction
+  - 
 
-- Recommendations 
+- Recommendations
+  - Gradient boosting shows superior performance while XGBoost offers tradeoff between performance and speed
