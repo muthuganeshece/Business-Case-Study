@@ -1,4 +1,4 @@
-hiji# Business Case study
+ishiji# Business Case study
 Hi👋🏾, Welcome to the Business Case Study Repository! This repository contains a collection of business case studies of various industries dataset.
 
 ## Contents
@@ -242,3 +242,5 @@ It is recommended that the firm expand its reach orenhance marketing efforts in 
 
 - Recommendations
   - Gradient boosting shows superior performance while XGBoost offers tradeoff between performance and speed
+
+## Scaler: Unsupervised Learning 
