@@ -33,7 +33,7 @@ Based on the manual clustering done so far, answering few questions like:
 - K-means clustering
 - Hierarchical clustering (you can do this on a sample of the dataset if your process is taking time)
 - Insights from Unsupervised Clustering
-- Provide actionable Insights & Recommendations for the Business.
+Provide actionable Insights & Recommendations for the Business.
 
 Evaluation Criteria (100 Points):
 
