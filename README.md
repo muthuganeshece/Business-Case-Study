@@ -11,6 +11,8 @@ Hi👋🏾, Welcome to the Business Case Study Repository! This repository conta
 - [**Delhivery Feature Engineering: Feature Cleaning & Transformation**](Delhivery/Notebook/Delhivery_FeatureEngineering.ipynb)
 - [**Jamboree Education: Linear Regression**](Jamboree/Notebook/Jamboree_LinearRegression.ipynb)
 - [**LoanTap: Logistic Regression**](LoanTap/Notebook/LoanTap_LogisticRegression.ipynb)
+- [**Scaler: Clustering**](LoanTap/Notebook/LoanTap_LogisticRegression.ipynb)
+
 
 ## Target Retail Analytics
   - #### Tools and Libraries
