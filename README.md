@@ -239,13 +239,13 @@ It is recommended that the firm expand its reach orenhance marketing efforts in 
 ## OLA: Ensemble Learning 
 - #### Tools and Libraries 
   - Python, Numpy, Pandas, SKlearn, imblearn
-- Insights
+- #### Insights
   - Recent grading influences the prediction
   - 
 
-- Recommendations
+- #### Recommendations
   - Gradient boosting shows superior performance while XGBoost offers tradeoff between performance and speed
 
 ## Scaler: Unsupervised Learning 
 - #### Tools and Libraries
-  - Python, KMeans/Hierarchical Clustering, 
+  - Python, KMeans/Hierarchical Clustering
